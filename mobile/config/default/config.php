@@ -5,7 +5,7 @@
         'app_path'=>'apps',
         'ctrl_path'=>'ctrl',
         'project'=>array(
-            'name'=>'index',                 
+            'name'=>'mobile',                 
         	'view_mode'=>'Str',   		
         	'ctrl_name'=>'a',				
         	'method_name'=>'m',				

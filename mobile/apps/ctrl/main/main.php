@@ -1,11 +1,11 @@
 <?php
-namespace ctrl\index;
-use houphp\Controller\IController,
-    houphp\Core\Config,
-    houphp\View;
-use houphp\Protocol\Request;
+namespace ctrl\main;
+use ZPHP\Controller\IController,
+    ZPHP\Core\Config,
+    ZPHP\View;
+use ZPHP\Protocol\Request;
 
-class index implements IController
+class main implements IController
 {
 
     public function _before()
@@ -18,9 +18,9 @@ class index implements IController
         //
     }
 
-    public function index()
+    public function main()
     {
-        $project = Config::getField('project', 'name', 'houphp');
+        $project = Config::getField('project', 'name', 'zphp');
         $data = $project." runing!\n";
         $params = Request::getParams();
         if(!empty($params)) {
