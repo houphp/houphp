@@ -1,4 +1,4 @@
 <?php
 $rootPath = dirname(__DIR__);
-require '/Users/amosliu/www/houphp/vendor/houjit/houphp-framework' . DIRECTORY_SEPARATOR . 'houphp.php';
+require '/www/wwwroot/pro/houphp/vendor/houjit/houphp-framework' . DIRECTORY_SEPARATOR . 'houphp.php';
 houphp::run($rootPath);
