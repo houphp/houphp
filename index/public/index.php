@@ -1,5 +1,5 @@
 <?php
+use houphp;
 $rootPath = dirname(__DIR__);
-//require $rootPath . '/../vendor/houjit/houphp-framework' . DIRECTORY_SEPARATOR . 'houphp.php';
-var_dump($rootPath . '/../vendor/houjit/houphp-framework' . DIRECTORY_SEPARATOR . 'houphp.php');exit;
+require '/Users/amosliu/www/houphp/vendor/houjit/houphp-framework' . DIRECTORY_SEPARATOR . 'houphp.php';
 houphp::run($rootPath);
