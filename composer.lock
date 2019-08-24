@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d93ad68c49ecf130fb0cf2a1fc7de03d",
+    "packages": [
+        {
+            "name": "houjit/houphp-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/houphp/framework.git",
+                "reference": "8249352b1ce32d4ae138934fe0926ef3277863e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/houphp/framework/zipball/8249352b1ce32d4ae138934fe0926ef3277863e3",
+                "reference": "8249352b1ce32d4ae138934fe0926ef3277863e3",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-0": {
+                    "houphp\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "amos",
+                    "email": "amos@houjit.com"
+                }
+            ],
+            "description": "houphp is a light that is dedicated to gaming, social networking, web, mobile server-side frameworks. Providing high performance real-time communication solutions.",
+            "homepage": "https://www.houjit.com",
+            "keywords": [
+                "Socket",
+                "Thread",
+                "framework",
+                "multi",
+                "progress",
+                "server"
+            ],
+            "time": "2019-08-24T08:04:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "houjit/houphp-framework": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.1.3"
+    },
+    "platform-dev": []
+}
