@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10c3604-68bb-45be-8fdd-90b6903f3056" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/houjit/houphp-framework" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/houjit/houphp-framework" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            <state relative-caret-position="57">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -59,6 +68,7 @@
         <option value="$PROJECT_DIR$/vendor/houjit/houphp-framework/houphp.php" />
         <option value="$PROJECT_DIR$/vendor/houjit/houphp-framework/build.php" />
         <option value="$PROJECT_DIR$/index/public/index.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -108,6 +118,11 @@
             </path>
             <path>
               <item name="houphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houphp" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
@@ -152,18 +167,18 @@
       <option name="presentableId" value="Default" />
       <updated>1563100387442</updated>
       <workItem from="1563100388516" duration="150000" />
-      <workItem from="1566632892819" duration="6899000" />
+      <workItem from="1566632892819" duration="7112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7049000" />
+    <option name="totallyTimeSpent" value="7262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14217253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14217253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,7 +191,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27386364" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27386364" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -211,13 +226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -264,8 +272,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        <state relative-caret-position="57">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
